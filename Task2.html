@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Apply CSS to center the outer-box */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Ensure the body takes up the full viewport height */
+            margin: 0;
+        }
+
+        /* Define the CSS for the outer box */
+        .outer-box {
+            border: 1px solid black;
+            padding: 10px;
+            width: 225px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Create an outer container div with a class of "outer-box" -->
+    <div class="outer-box">
+        Lists can be nested(list inside list):
+        <br />
+        <ul>
+            <li>Coffee</li>
+            <li>
+                Tea
+                <ul>
+                    <li>Black tea</li>
+                    <li>Green tea</li>
+                </ul>
+            </li>
+            <li>Milk</li>
+        </ul>
+    </div>
+</body>
+</html>
